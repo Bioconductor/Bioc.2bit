@@ -1,0 +1,14 @@
+Package: Bioc.2bit
+Title: Read/write 2bit files in Bioconductor
+Description: A set of low-level utilities to read/write 2bit files in
+	Bioconductor.
+biocViews: Infrastructure, DataImport, GenomeAssemby
+Version: 0.0.0
+License: Artistic-2.0
+Encoding: UTF-8
+Authors@R: person("Hervé", "Pagès", role=c("aut", "cre"),
+	          email="hpages.on.github@gmail.com")
+Depends: S4Vectors, IRanges, Biostrings
+LinkingTo: S4Vectors, IRanges, XVector, Biostrings
+Suggests: testthat, knitr, rmarkdown, BiocStyle
+VignetteBuilder: knitr
