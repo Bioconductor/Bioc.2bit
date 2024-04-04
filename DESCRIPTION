@@ -9,6 +9,6 @@ Encoding: UTF-8
 Authors@R: person("Hervé", "Pagès", role=c("aut", "cre"),
 	          email="hpages.on.github@gmail.com")
 Depends: S4Vectors, IRanges, Biostrings
-LinkingTo: S4Vectors, IRanges, XVector, Biostrings
+LinkingTo: Rtwobitlib, S4Vectors, IRanges, XVector, Biostrings
 Suggests: testthat, knitr, rmarkdown, BiocStyle
 VignetteBuilder: knitr
