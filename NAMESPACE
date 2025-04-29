@@ -1,2 +1,1 @@
-useDynLib(Bioc.2bit)
-
+useDynLib(Bioc.2bit, .registration = TRUE)
