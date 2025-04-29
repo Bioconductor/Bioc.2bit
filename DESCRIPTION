@@ -1,9 +1,9 @@
 Package: Bioc.2bit
-Title: Read/write 2bit files in Bioconductor
+Title: Read and write 2bit files in Bioconductor
 Description: A set of low-level utilities to read/write 2bit files in
 	Bioconductor.
 biocViews: Infrastructure, DataImport, GenomeAssemby
-Version: 0.0.0
+Version: 0.0.0001
 License: Artistic-2.0
 Encoding: UTF-8
 Authors@R: person("Hervé", "Pagès", role=c("aut", "cre"),
