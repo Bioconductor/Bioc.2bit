@@ -10,8 +10,8 @@ void twoBit_finalizer(SEXP s)
 {
     if (R_ExternalPtrAddr(s) == NULL)
         return;
-    struct twoBit *tb = (struct twoBit *) R_ExternalPtrAddr(s);
-    twoBitFree(&tb);
+    struct twoBit *twoBit = (struct twoBit *) R_ExternalPtrAddr(s);
+    twoBitFree(&twoBit);
     R_ClearExternalPtr(s); /* not strictly necessary, but good practice */
 }
 
